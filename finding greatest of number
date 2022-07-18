@@ -1,0 +1,10 @@
+object scala_basic {
+ def test(x: Int, y: Int, z: Int): Int = {
+ List(x, y, z).max
+ }
+
+ def main(args: Array[String]): Unit = {
+ println("Result: " + test(1,2,3));
+ println("Result: " + test(10,20,30));
+ }
+}
