@@ -1,0 +1,7 @@
+object Class {
+    def add(x:Int, y:Int) = x + y;
+
+    def main(args: Array[String]) {
+        print("sum of x + y = " + add(35,10));
+    }
+}
