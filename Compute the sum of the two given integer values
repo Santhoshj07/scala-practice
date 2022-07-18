@@ -2,5 +2,6 @@ object add{
     def add(x:Int,y:Int)=x+y;
     def main(args:Array[String]){
         println(add(45,5));
+        println(add(5,5));
     }
 }
