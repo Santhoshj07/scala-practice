@@ -1,0 +1,10 @@
+object ques_4{
+    def test(x:Int,y:Int):Boolean ={
+        x == 20 || y == 20 || x+y == 20;
+    }
+    def main(args: Array[String]): Unit = {
+        println("output: " + test (20,20));
+        println("output: "+ test (10,10));
+        println("output: "+ test (30,10));
+    }
+}
