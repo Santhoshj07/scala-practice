@@ -1,0 +1,11 @@
+object ques_6 {
+  def get(str: String): String = 
+    {
+     if (str.startsWith("if")) str else "if " + str
+    }
+     
+   def main(args: Array[String]): Unit = {
+      println("output: " + get("if else"));
+      println("output: " + get("else"));
+    }
+}
