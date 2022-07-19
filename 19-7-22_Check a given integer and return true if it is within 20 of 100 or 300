@@ -1,0 +1,13 @@
+object ques_5 {
+  def test(x:Int) : Boolean  =
+    {
+     Math.abs(200 - x) <= 100
+    }
+     
+   def main(args: Array[String]): Unit = {
+      println("output: " + test(100));
+      println("output: " + test(150));
+      println("output: " + test(200));
+      println("output: " + test(50));
+   }
+}
