@@ -1,7 +1,11 @@
-object add{
-    def add(x:Int,y:Int)=x+y;
-    def main(args:Array[String]){
-        println(add(45,5));
-        println(add(5,5));
-    }
+object demo{
+def add(x:Int,y:Int):Int={
+if(x==y)
+return 3*(x+y);
+else x+y;
+
+}
+def main(args:Array[String]){
+print(add(10,20));
+}
 }
