@@ -1,0 +1,13 @@
+Question:
+Write a Scala program to check a given integer and return true if it is within 20 of 100 or 300.
+ans:
+object ques_4{
+    def test(x:Int,y:Int):Boolean ={
+        x == 20 || y == 20 || x+y == 20;
+    }
+    def main(args: Array[String]): Unit = {
+        println("output: " + test (20,20));
+        println("output: "+ test (10,10));
+        println("output: "+ test (30,10));
+    }
+}
